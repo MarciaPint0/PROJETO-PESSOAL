@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+}
+
+#header{
+    background-color: #e3ece8;
+    width: 200px;
+    padding: 20px 15px;
+}
+
+
+#footer{
+    background-color:#e3ece8;
+    width: 70px!important;
+}
+
+#principal{
+    height: 100vh;
+}
+
+#img-user{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-image: url("imagens/users/user1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#barra-pesquisa{
+    border: none;
+    border-radius: 25px;
+
+}
+
+.icon{
+    width: 16px;
+}
+
+#configs{
+    position: absolute;
+    bottom: 100px;
+}
+
+#sair{
+    position: absolute;
+    bottom: 70px;
+}
+
+#redes{
+    position: relative;
+    top: 220px;
+}
