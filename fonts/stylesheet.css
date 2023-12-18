@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Courgette';
+    src: url('Courgette-Regular.woff2') format('woff2'),
+        url('Courgette-Regular.woff') format('woff'),
+        url('Courgette-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Handlee';
+    src: url('Handlee-Regular.woff2') format('woff2'),
+        url('Handlee-Regular.woff') format('woff'),
+        url('Handlee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Michland';
+    src: url('Michland.woff2') format('woff2'),
+        url('Michland.woff') format('woff'),
+        url('Michland.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

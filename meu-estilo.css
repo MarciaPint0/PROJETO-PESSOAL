@@ -1,0 +1,113 @@
+#first{
+    background-color: #e3ece8;
+    width: 200px;
+    padding: 20px 15px;
+}
+
+#mid{
+    width: 100%;
+    margin-right: 70px;
+
+}
+
+#last{
+    background-color:#e3ece8;
+    width: 70px;
+}
+
+#img-user{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-image: url("imagens/users/user1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#barra-pesquisa{
+    border: none;
+    border-radius: 25px;
+}
+
+.icon{
+    width: 16px;
+}
+
+#configs{
+    position: absolute;
+    bottom: 100px;
+}
+
+#sair{
+    position: absolute;
+    bottom: 70px;
+}
+
+.redes{
+    height: 50px!important;
+    width: 50px!important;
+}
+
+#coluna-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-home{
+    background-image: url("imagens/Icons/riscado.png");
+    background-position:top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    font-family: 'Michland';
+    font-size: 100px;
+}
+
+.imagens-animais{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+#insert:hover{
+    box-shadow: inset 0px 0px 8px 5px #95DDDF;
+}
+
+.texto{
+    display: none;
+}
+
+.caixa{
+    border-radius: 100%;
+    transition-duration:0.2s;
+}
+
+.caixa:hover{
+    box-shadow: inset 0px 0px 8px 5px #95DDDF;
+    background-color:#e5e5e58e;
+    cursor: pointer;
+}
+
+.caixa:hover > .texto{
+    display: block;
+    color:black;
+    font-size: 18px;
+}
+
+#insert{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    font-size: 80px;
+    color: #727272;
+    background-color:#e5e5e5;
+    box-shadow: inset 0px 0px 0px 3px #95DDDF;
+    cursor: pointer;
+}
