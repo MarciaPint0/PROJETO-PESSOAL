@@ -1,3 +1,7 @@
+a{
+    text-decoration: none!important;
+}
+
 #first{
     background-color: #e3ece8;
     width: 200px;
@@ -67,6 +71,35 @@
     font-size: 100px;
 }
 
+#titulo-adicionar > div.ps-5{
+    background-image: url("imagens/Icons/riscado-sub.png");
+    background-position:right;
+    background-size:100%;
+    background-repeat: no-repeat;
+    font-family: 'Michland';
+    font-size: 80px;
+    text-align: left;
+}
+
+
+#esquerda-ficha{
+    margin-top: 10px;
+}
+
+#esquerda-ficha > div.titulo{
+    background-color: #e3ece8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    width: 70%;
+    box-shadow: 6px 6px 4px 0px #727272;
+    font-family: 'Michland';
+    font-size: 80px;
+}
+
+#esquerda-ficha{
+    width: 40%;
+}
+
 .imagens-animais{
     background-position: center;
     background-repeat: no-repeat;
@@ -76,12 +109,24 @@
     height: 250px;
 }
 
+#imagem-ficha{
+    width: 350px;
+    height: 350px;
+}
+
+
 #insert:hover{
     box-shadow: inset 0px 0px 8px 5px #95DDDF;
 }
 
 .texto{
     display: none;
+    font-family: 'Handlee';
+    font-weight: bolder;
+    font-size: 25px!important;
+    box-shadow: inset 0px 0px 8px 3px #ffffff;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .caixa{
@@ -110,4 +155,120 @@
     background-color:#e5e5e5;
     box-shadow: inset 0px 0px 0px 3px #95DDDF;
     cursor: pointer;
+}
+
+#direita-insert{
+    width: 60%;
+}
+
+.box{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #737876;
+    border-radius: 20px;
+}
+
+#box-direita{
+    width: 70%;
+}
+
+.titulo-box{
+    position: relative;
+    top: -13px;
+    background-color: #ffffff;
+    width: fit-content;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+.box input, .box textarea, .login input{
+    border: none;
+    border-radius: 50px;
+    background-color: #E3ECE8;
+}
+
+.box textarea{
+    border-radius: 15px;
+}
+
+.icon-escolha{
+    width: 50px;
+}
+
+.icon-sexo{
+    height: 40px;
+}
+
+.escolha{
+    background-color: #E3ECE8;
+    border-radius: 100px;
+}
+
+.escolhido{
+    background-image: radial-gradient(#E3ECE8, rgb(112, 255, 112));
+    border-radius: 100px;
+    box-shadow: 0px 0px 21px 2px rgb(112, 255, 112) ;
+}
+
+.foto-fundo{
+    position: absolute;
+    bottom: 0;
+    z-index: -5;
+}
+
+#escolha-tipo{
+    width: 80%;
+}
+
+.input-group > span{
+    font-weight: bold;
+    justify-content: center;
+    width: 90px;
+    border-top-left-radius: 12px!important;
+    border-bottom-left-radius: 12px!important;
+}
+
+span.obs{
+    width: 120px!important;
+}
+
+span.rounded{
+    border-radius: 12px!important;
+    width: 100%;
+    margin:0px!important;
+}
+
+.linhas-marcacoes > div > input{
+    width: 100%;
+    border-radius: 12px!important;
+    padding: 6px 2px;
+    text-align: center;
+}
+
+.input-group > input, .input-group > textarea{
+    border-top-right-radius: 12px!important;
+    border-bottom-right-radius: 12px!important;
+}
+
+.coluna-info{
+    width: 20px!important;
+}
+
+.login{
+    height: 350px;
+    width: 300px;
+    background-image: url("imagens/Icons/fundo_login.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login input{
+    padding: 6px 10px;
+    border-radius: 12px!important;
+}
+
+.imagem-login{
+    position: relative;
+    bottom: -15px;
 }
